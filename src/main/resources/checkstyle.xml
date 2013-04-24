@@ -237,11 +237,11 @@
         <module name="TypeName"/>
         <!-- Size Violations -->
         <module name="LineLength">
-            <property name="max" value="200"/>
+            <property name="max" value="110"/>
             <property name="severity" value="warning"/>
         </module>
         <module name="LineLength">
-            <property name="max" value="250"/>
+            <property name="max" value="200"/>
             <property name="id" value="LineLength_Error"/>
         </module>
         <module name="MethodLength">
@@ -343,7 +343,7 @@
         </module>
         <module name="RegexpSinglelineJava">
             <property name="format" value="\.printStackTrace\(\)|System\.out|System\.err|org\.apache\.commons\.logging\.Log|java\.util\.logging"/>
-            <property name="message" value="use SLF4J for logging"/>
+            <property name="message" value="use a proper logging solution for logging"/>
             <property name="ignoreComments" value="true"/>
             <property name="id" value="InvalidLoggingMethod_Error"/>
         </module>
