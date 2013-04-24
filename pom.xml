@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>hu.meza.tools</groupId>
     <artifactId>checkstyle</artifactId>
     <version>0.1</version>
 
     <name>Checkstyle ruleset</name>
+    <description>A small module to version the checkstyle ruleset</description>
+    <url>https://github.com/meza/checkstyleRuleset</url>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License (GPL) version 3.0</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <packaging>jar</packaging>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
     <developers>
         <developer>
@@ -19,6 +33,8 @@
 
     <scm>
         <url>git@github.com:meza/checkstyleRuleset.git</url>
+        <connection>scm:git:git@github.com:meza/checkstyleRuleset.git</connection>
+        <developerConnection>scm:git:git@github.com:meza/checkstyleRuleset.git</developerConnection>
     </scm>
 
 </project>
