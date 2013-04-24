@@ -53,6 +53,9 @@ This will download the maven dependency, set the rules and run mvn checkstyle:ch
 1. Download CheckStyle-IDEA plugin 
 2. Locate the settings of the plugin 
 3. Add the https://github.com/meza/checkstyleRuleset/blob/master/src/main/resources/checkstyle.xml as a HTTP ruleset 
-4. Download the IntelliJ IDEA formatting file from: https://raw.github.com/meza/checkstyleRuleset/master/src/main/resources/ides/intellij/config/codestyles/meza.xml, and place it under <user_home>/.IntellijIdea<version>/config/codestyles
+4. Download the IntelliJ IDEA formatting file from: https://raw.github.com/meza/checkstyleRuleset/master/src/main/resources/ides/intellij/config/codestyles/meza.xml, and place it under 
+```
+<user_home>/.IntellijIdea<version>/config/codestyles
+```
 5. Restart IntelliJ
 6. Set the newly downloaded formatter to be active for your project 
