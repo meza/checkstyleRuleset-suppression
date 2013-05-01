@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.meza.tools</groupId>
     <artifactId>checkstyle</artifactId>
-    <version>0.2</version>
+    <version>0.3-SNAPSHOT</version>
 
     <name>Checkstyle ruleset</name>
     <description>A small module to version the checkstyle ruleset</description>
