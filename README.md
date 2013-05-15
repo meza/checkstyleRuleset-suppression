@@ -16,7 +16,7 @@ To use my pretty strict rule set, use
                     <dependency>
                         <groupId>hu.meza.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>0.1</version>
+                        <version>LATEST</version>
                     </dependency>
                 </dependencies>
                 <configuration>
@@ -52,7 +52,7 @@ This will download the maven dependency, set the rules and run mvn checkstyle:ch
 ## IntelliJ IDEA Setup ##
 1. Download CheckStyle-IDEA plugin 
 2. Locate the settings of the plugin 
-3. Add the https://github.com/meza/checkstyleRuleset/blob/master/src/main/resources/checkstyle.xml as a HTTP ruleset 
+3. Add the https://raw.github.com/meza/checkstyleRuleset/master/src/main/resources/checkstyle.xml as a HTTP ruleset 
 4. Download the IntelliJ IDEA formatting file from: https://raw.github.com/meza/checkstyleRuleset/master/src/main/resources/ides/intellij/config/codestyles/meza.xml, and place it under 
 ```
 <user_home>/.IntellijIdea<version>/config/codestyles
