@@ -16,7 +16,7 @@ To use my pretty strict rule set, use
                     <dependency>
                         <groupId>hu.meza.tools</groupId>
                         <artifactId>checkstyle</artifactId>
-                        <version>0.1</version>
+                        <version>LATEST</version>
                     </dependency>
                 </dependencies>
                 <configuration>
