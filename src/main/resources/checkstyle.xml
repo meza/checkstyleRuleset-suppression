@@ -386,7 +386,7 @@
         <property name="id" value="TrailingSpaces_Error"/>
     </module>
     <module name="RegexpSingleline">
-        <property name="format" value="^[ ]+"/>
+        <property name="format" value="^[ ]+(?!\*)"/>
         <property name="message" value="Line is indented by spaces. Use TAB"/>
         <property name="id" value="ProceedingSpaces_Error"/>
         <property name="fileExtensions" value="java"/>
